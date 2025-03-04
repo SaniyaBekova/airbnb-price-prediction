@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Swagger config
 app.config['SWAGGER'] = {
     'title': 'Airbnb Rental Price Prediction API',
-    'uiversion': 3
+    'uiversion': 4
 }
 swagger = Swagger(app)
 
