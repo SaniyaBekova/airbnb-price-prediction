@@ -71,7 +71,7 @@ encoder = None
 @app.route('/reload', methods=['POST'])
 def reload_data():
     '''
-    Reload data from the Airbnb dataset, clear the database, load new data, and return summary stats
+    Reload data from the Airbnb dataset, clear the database, load new data, and return summary stats.
     ---
     responses:
       200:
@@ -128,7 +128,7 @@ def reload_data():
 @app.route('/predict', methods=['POST'])
 def predict():
     '''
-    Predict the rental price for an Airbnb listing
+    Predict the rental price for an Airbnb listing.
     ---
     parameters:
       - name: body
